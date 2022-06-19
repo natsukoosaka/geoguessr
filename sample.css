@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*内側と外側の余白をなくす*/
+}
+#map{
+  float: right;
+  height: 50%;
+  width:30%;
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+#pano {
+  float: left;
+  height: 100%;
+  width: 70%;
+}
