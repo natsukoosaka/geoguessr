@@ -1,0 +1,34 @@
+
+<!DOCTYPE html "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API サンプル</title>
+
+    <script src="code4-4.js"></script>
+  </head>
+  <body onload="initialize()">
+    <p>正解の表示</p>
+
+    <div id="map" style="width:70%; height: 80%"></div>
+    <div id="pano"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0eXH2Hw3wQR7ADYKx5mnunW-yzujutA&callback=initialize&v=weekly"
+      async
+    ></script>
+
+
+    正解緯度：<input type="text" id="lat" name="lat" size="20">
+    正解経度：<input type="text" id="lng" name="lng" value="" size="20">
+    <br>
+    回答緯度：<input type="text" id="answerlat" name="answerlat" size="20">
+    回答経度：<input type="text" id="answerlng" name="answerlng" size="20">
+    <br>
+    距離：<input type="text" id="msg" name="msg">KM
+    <br>
+
+    <a href="enter.html"><input type="button" value="次へ"/></a>
+  </body>
+</html>
